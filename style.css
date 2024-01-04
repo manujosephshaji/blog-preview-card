@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    background-color:hsl(47, 88%, 63%) ;
+    font-family: 'Figtree', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 21rem;
+    padding: 18px;
+    border-radius: 16px;
+    border: 1px solid black;
+    box-shadow: 8px 6px;
+}
+.container:hover{
+    transition:0.4s ease-in-out;
+    box-shadow: 17px 15px;
+}
+.article-img img{
+    border-radius: 16px;
+}
+div button{
+    width: 5rem;
+    font-weight: 800;
+    background-color:hsl(47, 88%, 63%) ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+div h2:hover{
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
+.container p p{
+   color:  hsl(0, 0%, 50%);
+}
+div h3{
+    display: flex;
+    margin: 0;
+   align-items: center;
+}
+.attribution{
+    text-align: center;
+    margin-top: 50px;
+}
+.attribution a:hover{
+    color: black;
+}
